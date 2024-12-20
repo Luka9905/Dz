@@ -1,0 +1,10 @@
+Package: mysyslog-meta
+Version: 1.0
+Section: metapackages
+Priority: optional
+Architecture: amd64
+Depends: libmysyslog, libmysyslog-text, libmysyslog-json, mysyslog-client, mysyslog-daemon
+Maintainer: KTSO-02-23 <KTSO.0223@gmail.com>
+Description: Metapackage for installing all mysyslog components
+ This package is a metapackage that installs all components
+ of the mysyslog system, including libraries, client, and daemon.
